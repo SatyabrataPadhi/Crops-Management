@@ -12,6 +12,6 @@ public class SearchController extends BaseController{
 
     @RequestMapping("/search")
     public @ResponseBody String defaultMethod(){
-        return "Welcome to PMS Search";
+        return "Welcome to CMS Search";
     }
 }

@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by spadhi on 03/03/16.
  */
 
-@RequestMapping("/PMS")
+@RequestMapping("/CMS")
 public class BaseController {
-    
+
 
 }
