@@ -1,4 +1,4 @@
-package com.mycomp.controller.web;
+package com.mycomp.web.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -7,11 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by spadhi on 03/03/16.
  */
-@RestController
-public class SearchController extends BaseController{
 
-    @RequestMapping("/search")
-    public @ResponseBody String defaultMethod(){
-        return "Welcome to CMS Search";
-    }
+@RequestMapping("/CMS")
+public class BaseController {
+
+
 }
